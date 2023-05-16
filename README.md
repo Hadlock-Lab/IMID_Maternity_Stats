@@ -1,4 +1,4 @@
-# IMID_Maternity_Stats
+# IMIDs_Maternity_Stats
 
 This contains the code used to conduct the retrospective cohort study for Hwang et al. 2023 manuscript on Immune mediated inflammatory disease and risk of adverse pregnancy outcomes.
 
@@ -13,10 +13,10 @@ We used Python version 3.8.10.
 ## Workflow 
 Our workflow is described using alphabets. 
 
-- [utilities](https://github.com/Hadlock-Lab/IMID_Maternity_Stats/tree/main/utilities.py) contains functions written by Hadlock Lab and required to be loaded for analysis   
+- [utilities](https://github.com/Hadlock-Lab/IMIDs_Maternity_Stats/tree/main/utilities.py) contains functions written by Hadlock Lab and required to be loaded for analysis   
 
-- [A_cohort_prepartion](https://github.com/Hadlock-Lab/IMID_Maternity_Stats/blob/main/A_cohort_prepartion.py) prepares cohort for analysis. Includes cohort selection process and feature engineering. 
+- [A_cohort_prepartion](https://github.com/Hadlock-Lab/IMIDs_Maternity_Stats/blob/main/A_cohort_prepartion.py) prepares cohort for analysis. Includes cohort selection process and feature engineering. 
 
-- [B_propensity_score_matching](https://github.com/Hadlock-Lab/IMID_Maternity_Stats/blob/main/B_propensity_score_matching.py) runs propensity score matching and sensitivity analysis. 
+- [B_propensity_score_matching](https://github.com/Hadlock-Lab/IMIDs_Maternity_Stats/blob/main/B_propensity_score_matching.py) runs propensity score matching and sensitivity analysis. 
 
-- [C_get_outcomes](https://github.com/Hadlock-Lab/IMID_Maternity_Stats/blob/main/C_get_outcomes.py)calculate risk ratio and p-value. 
+- [C_get_outcomes](https://github.com/Hadlock-Lab/IMIDs_Maternity_Stats/blob/main/C_get_outcomes.py)calculate risk ratio and p-value. 
